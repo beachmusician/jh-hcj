@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+	
+body {
+	background-color: #8b4513; /* saddlebrown */
+	color: #fff8dc; /* cornsilk */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+	border: 1px solid black;
+	background-color: #fff8dc; /* cornsilk */
+	color: #8b4513; /* saddlebrown */
+	width: auto;
+	height: auto;
+	margin: 15px;
+}
+		
+h1 {
+	margin: 30px;
+	text-align: center;
+}
+	
+h2{
+	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    padding-top: 10px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+	
+	
+section>p {
+    padding: 60px 15px 15px 15px;
+}
+	
+section.coffee>h2, section.tea>h2, section.chocolate>h2 {
+	float:right;
+	top: 0;
+	right: 0;
+	color: #fff8dc; /* cornsilk */
+}
+
+section.coffee>h2 {
+	background-color: #5D2E0C; /* dark brown */
+}
+	
+section.tea>h2 {
+	background-color: #D2671B; /* medium brown */
+}
+	
+section.chocolate>h2 {
+	background-color: #E78B49; medium brown */
+}
+	
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1, .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
