@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********** Base style **********/
+
+body {
+	background-color: #8b4513; /* saddlebrown */
+	color: #fff8dc; /* cornsilk */
+    font-family: 'Nanum Gothic', sans-serif;
+	font-size: 16px;
+}
+
+
+/********** Header / Nav **********/
+
+#header-nav {
+    background-color: #5D2E0C; /*dark brown */
+	color: #fff8dc; /* cornsilk */; 
+	border: 0;
+    border-radius: 0;
+}
+
+#header-nav button {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff8dc; /* cornsilk */
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+	padding-top: 0;
+	height: 75px;
+    line-height: 70px;
+}
+
+.navbar-brand h1 {
+    color: #D2671B; /* medium tea brown */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #5D2E0C; /* dark brown */
+}
+
+#nav-list {
+    background-color: #E78B49; /*medium hot chocolate brown */
+}
+
+#nav-list a {
+	color: #5D2E0C; /* dark brown */
+	font-size: 1.2em;
+    font-weight: bold;
+}
+
+#nav-list a:hover {
+    color: #5D2E0C; /* dark brown */
+    background-color: #fff8dc; /* cornsilk */;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #D2671B; /* medium brown */
+}
+
+
+/********** END Header / Nav **********/
+
+
+/********** Home Page **********/
+
+#main-content {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#main-content h2 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+	font-size: 2.8em;
+    font-weight: bold;
+}
+
+#main-content h3 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#main-section {
+    padding: 30px;
+	background-color: #fff8dc; /* cornsilk */
+	color: #8b4513; /* saddlebrown */
+    box-shadow: 0 0 50px #5D2E0C; /* dark brown */
+}
+
+/********** END Home Page **********/
